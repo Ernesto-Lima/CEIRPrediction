@@ -1,0 +1,8 @@
+model_n = 10
+n_files = 1
+all_tv = '../data/data_mean_std_norioe_tv.dat'
+all_hf = '../data/data_mean_std_norioe_hf.dat'
+input_n = 6
+read_file = 2
+position = 4
+pars_file = './outputQueso/parameters_d123_m6.dat ./outputQueso/parameters_d45_m10.dat'

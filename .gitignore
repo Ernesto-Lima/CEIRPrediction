@@ -32,3 +32,6 @@
 *.app
 
 .ipynb_checkpoints
+.depend
+__pycache__/
+job_output.txt

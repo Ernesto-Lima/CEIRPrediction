@@ -1,0 +1,34 @@
+###############################################
+# UQ Environment
+###############################################
+#env_help              = anything
+env_numSubEnvironments = 1
+env_displayVerbosity   = 1
+env_subDisplayFileName = outputData/display
+env_subDisplayAllowAll = 1
+env_seed               = -1
+####################################################################
+# Statistical inverse problem (ip)
+####################################################################
+ip_ml_default_rawChain_size                    = 1000
+ip_ml_last_rawChain_dataOutputFileName         = outputData/rawChain_ml
+ip_ml_last_rawChain_size                       = 20000
+#ip_ml_default_minEffectiveSizeRatio            = 0.98
+#ip_ml_default_maxEffectiveSizeRatio            = 0.99
+#ip_ml_default_minRejectionRate                 = 0.75
+#ip_ml_default_maxRejectionRate                 = 0.85
+#ip_ml_default_covRejectionRate                 = 0.27
+
+#ip_ml_loadBalanceAlgorithmId                   = 0
+#ip_ml_default_loadBalanceTreshold              = 0.49
+#ip_ml_default_rawChain_dataOutputFileName      = outputData/rawChain_ml_inter
+#ip_ml_default_putOutOfBoundsInChain            = 0
+#ip_ml_amEpsilon                                = 1.e-10
+#ip_ml_minAcceptableEta                         = 0.1
+#ip_ml_rawChainComputeStats                     = 1
+#ip_ml_last_rawChain_dataOutputAllowedSet       = 0
+#ip_ml_last_rawChain_computeStats               = 1
+#ip_ml_last_rawChain_stats_kde_compute          = 1
+#ip_ml_last_rawChain_stats_kde_numEvalPositions = 200
+#ip_ml_last_rawChain_stats_covMatrix_compute    = 1
+#ip_ml_last_rawChain_stats_corrMatrix_compute   = 1
