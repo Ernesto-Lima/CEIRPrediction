@@ -22,7 +22,7 @@ To use the code and reproduce the results:
 
 1. Clone this repository to your local machine.
 
-2. Follow the instructions in the respective directories (`cpp_code/` and `python_code/`) to compile and run the code.
+2. Follow the instructions in the respective directories (`calibration/` and `sensitivity_analysis/`) to compile and run the code.
 
 3. Refer to the README files within each directory for more detailed instructions on how to use the code, preprocess data, and interpret the results.
 
