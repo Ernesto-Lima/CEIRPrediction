@@ -6,9 +6,7 @@ This repository contains the code and data files associated with the research pa
 
 The repository is organized as follows:
 
-- `cpp_code/`: Contains the C++ code implementing the mathematical model given by Eqs (1) and (2) from our paper. The model is solved using a fourth-order Runge-Kutta method.
-
-- `python_code/`: Includes Python files for post-processing the results. It contains scripts to analyze the data obtained from the model simulations.
+- `calibration/`: Contains the C++ code implementing the mathematical model given by Eqs (1) and (2) from our paper. The model is solved using a fourth-order Runge-Kutta method. Includes Python files for post-processing the results. It contains scripts to analyze the data obtained from the model simulations.
 
 - `sensitivity_analysis/`: Includes Python files for performing sensitivity analysis.
 
